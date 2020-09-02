@@ -1,5 +1,4 @@
-/////////////////////////////////////
-// Budget Controller (Data modules)
+// todo -> Budget Controller (Data modules)
 var budgetController = (function () {
   // constructors
   var Expense = function (id, description, value) {
@@ -21,7 +20,7 @@ var budgetController = (function () {
   Expense.prototype.getPercentages = function () {
     return this.percentage;
   };
-  /////////////////////
+
 
   var Income = function (id, description, value) {
     this.id = id;
@@ -139,7 +138,7 @@ var budgetController = (function () {
 })();
 
 /////////////////////////////////////
-// UI Controller (UI modules)
+// todo -> UI Controller (UI modules)
 var UIController = (function () {
   // DOM string / html css class object
   var DOMstrings = {
@@ -323,7 +322,7 @@ var UIController = (function () {
 })();
 
 /////////////////////////////////////
-// CONTROLLER (CONTROLLER MODULES)
+// todo -> CONTROLLER (CONTROLLER MODULES)
 var controller = (function (budgetCtrl, UIctrl) {
   var setupEventListener = function () {
     var DOM = UIctrl.getDOMstrings();
