@@ -1,3 +1,3 @@
 # Budgetary
 Javascript Budget App
-see the project live here: https://tender-hugle-fa6c9b.netlify.app/
+see the project live here: https://budget-js-tanvir.netlify.app/
